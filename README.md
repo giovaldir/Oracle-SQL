@@ -1,14 +1,11 @@
 # Oracle-SQL
 
-# Classification and Gradient-based Localization of Chest Radiographs
-
-![cover](./assets/cover.png)
+![cover](oracle.png)
 ## Contents
 - [Introduction](#introduction)
 - [Overview](#overview)
-- [Steps](#steps)
-- [Results](#results)
-- [Usage](#usage)
+- [Learnings](#learnings)
+- [Exercises](#exercises)
 - [Conclusions](#conclusions)
 - [References](#references)
 
@@ -27,7 +24,7 @@
 
 * ___Note:___ The dataset and the trained models can be found in [here](https://drive.google.com/drive/folders/14L8wd-d2a3lvgqQtwV-y53Gsnn6Ud2-w?usp=sharing).<br>
 
-## Steps
+## Learnings
 > 1. [Dataset Exploration](./1_data_exploration.ipynb "1_data_exploration.ipynb")
 > 2. [Split the dataset](./split_dataset.py "split_dataset.py")
 >    |Type|COVID-19|Lung Opacity|Normal|Viral Pneumonia|Total|
@@ -60,7 +57,7 @@
 >    3. [Localize using Grad-CAM](./grad_cam.py)
 > 5. [Inference](./overlay_cam.py)
 
-## Results
+## Exercises
 
 <table>
 <tr>
